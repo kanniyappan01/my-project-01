@@ -20,7 +20,6 @@ section{
 	width:100%;
 	display:flex;
 	flex-wrap:wrap;
-	padding:0px 20px;
 }
 .row{
 	width:100%;
@@ -515,3 +514,79 @@ a{
 	border-radius:50px;
 }
 /*pricing-sec-end*/
+/*contack-sec-start*/
+.contact-map{
+	width:100%;
+	margin-bottom:50px;
+}
+.contact-detl{
+	width:40%;
+}
+.contact-detl .box{
+	margin-bottom:20px;
+	display:flex;
+	flex-wrap:wrap;
+}
+.contact-detl .box .icon-box{
+	width:10%;
+	padding:5px 5px 5px 0px;
+}
+.contact-detl .box .icon-box i{
+	color:#009961;
+	font-size:2.5rem;
+}
+.contact-detl .box .con{
+	width:90%;
+}
+.contact-detl .box .con h5{
+	font-size:2.2rem;
+	font-weight:500;
+}
+.contact-detl .box .con p{
+	font-size:1.4rem;
+	color:#777777;
+}
+.contact-form{
+	width:60%;
+}
+.contact-form form{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+.contact-form form .your{
+	width:50%;
+	padding:0px 10px;
+	margin-bottom:25px;
+}
+.contact-form form input{
+	border:1px solid lightgray;
+	border-radius:3px;
+	height:43px;
+}
+.contact-form form .your input{
+	width:100%;
+	height:43px;
+	padding:5px;
+	border:1px solid lightgray;
+	border-radius:3px;
+}
+.contact-form form .sub{
+	width:100%;
+	padding:0px 10px;
+	margin-bottom:25px;
+}
+.contact-form form .sub input{
+	width:100%;
+}
+.contact-form form .mes{
+	width:100%;
+	padding:0px 10px;
+}
+.contact-form form .mes textarea{
+	width:100%;
+	height:43px;
+	border:1px solid lightgray;
+	border-radius:3px;
+}
+/*contack-sec-end*/
